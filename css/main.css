@@ -1,0 +1,49 @@
+body{
+    background-image: url(../images/dollar.jpg);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: greenyellow;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form__input{
+    padding: 12px;
+    box-shadow: -1px -1px 2px 2px greenyellow;
+}
+
+.form__select{
+    margin: 100px 0;
+    padding: 10px;
+    box-shadow: -1px -1px 2px 2px greenyellow;
+}
+
+.form__button{
+    background-color:skyblue;
+    color: #000;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    box-shadow: -1px -1px 2px 2px greenyellow;
+}
+
+.form__result{
+    color: #fff;
+    font-size: 56px;
+    border-bottom: 1px solid greenyellow;
+}

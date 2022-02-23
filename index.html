@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>7-dars</title>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <h1>
+                DOLLAR TO:   (UzS, Rouble, Euro)
+            </h1>
+            
+            <form class="form" method="post" autocomplete="off">
+                <div>
+                    <input class="form__input" type="number" aria-label="Enter the amount of money in dollars" placeholder="$" min="0">
+                </div>
+                
+                <div>
+                    <select class="form__select" name="currencies">
+                        <option selected disabled>Enter the currency</option>
+                        <option value="10841">So'm</option>
+                        <option value="80.7">Rouble</option>
+                        <option value="0.88">Euro</option>
+                    </select>
+                </div>
+        
+                <button class="form__button" type="submit">
+                   Enter
+                </button>
+        
+                <span class="form__result"></span>
+            </form>
+        </div>
+    </section>
+
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
